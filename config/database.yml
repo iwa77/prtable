@@ -51,6 +51,6 @@ test:
 production:
   <<: *default
   database: prtable_production
-  username: prtable
+  username: root
   password: <%= ENV['PRTABLE_DATABASE_PASSWORD'] %>
   socket: /var/lib/mysql/mysql.sock

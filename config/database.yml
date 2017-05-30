@@ -53,3 +53,4 @@ production:
   database: prtable_production
   username: prtable
   password: <%= ENV['PRTABLE_DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock

@@ -1,3 +1,327 @@
-// Place all the styles related to the stories controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.body{
+  font-size: 1.0rem;
+  line-height: 1.8;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  background-color: gray;
+  min-width: 1629px;
+  width: 100%;
+  height: 100%;
+}
+
+  .header{
+    background-color: gray;
+    position: relative;
+    z-index: 9999;
+    height: 75px;
+    display: block;
+  }
+    .global-header{
+      background-color: white;
+      z-index: 9999;
+      height: 75px;
+      white-space: nowrap;
+      margin: auto;
+      box-sizing: border-box;
+      position: relative;
+      width: 1629px;
+      padding: 0 2em;
+      line-height: 60px;
+      display: table;
+      table-layout: fixed;
+    }
+      .logo{
+        background-color: yellow;
+        display: table-cell;
+        vertical-align: middle;
+        width: 125px;
+        height: 75px;
+        white-space: nowrap;
+        line-height: 75px;
+        font-size: 1.0rem;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+      }
+      .g-nav{
+        display: table-cell;
+        vertical-align: middle;
+        position: relative;
+        padding-left: 188px;
+        width: 466px;
+        height: 75px;
+        white-space: nowrap;
+        line-height: 75px;
+        font-size: 1.0rem;
+        margin: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        text-align: left;
+      }
+        .ul{
+          background-color: yellow;
+          height: 75px;
+          width: 466px;
+          box-sizing: border-box;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          border: 0;
+          font: inherit;
+          font-size: 100%;
+          vertical-align: baseline;
+        }
+
+      .buttons{
+        font-size: 1.0rem;
+        background-color: green;
+        width: 50%;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: right;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        white-space: nowrap;
+      }
+        .create{
+          box-sizing: border-box;
+          background-color: red;
+          width: 190px;
+          height: 40px;
+          padding: 0 0.5em;
+          display: inline-block;
+          vertical-align: middle;
+          letter-spacing: normal;
+          margin: 0;
+          border: 0;
+          font: inherit;
+          font-size: 100%;
+          text-align: right;
+          white-space: nowrap;
+        }
+        .login{
+          box-sizing: border-box;
+          background-color: red;
+          width: 190px;
+          height: 40px;
+          padding: 0 0.5em;
+          display: inline-block;
+          vertical-align: middle;
+          letter-spacing: normal;
+          margin: 0;
+          border: 0;
+          font: inherit;
+          font-size: 100%;
+          text-align: right;
+          white-space: nowrap;
+        }
+        .search{
+          box-sizing: border-box;
+          background-color: red;
+          width:  52px;
+          height: 49px;
+          display: inline-block;
+          vertical-align: middle;
+          letter-spacing: normal;
+          margin: 0;
+          padding: 0;
+          border: 0;
+          font: inherit;
+          font-size: 100%;
+          text-align: right;
+          white-space: nowrap;
+        }
+  .p-stories{
+    width: 100%;
+    height: 377px;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    background-color: green;
+  }
+    .pickup-2stories{
+      padding: 0 2em;
+      max-width: 1558px;
+      height: 377px;
+      margin: auto;
+      letter-spacing: -.40em;
+      background-color: blue;
+    }
+
+      .story1{
+        height: 377px;
+        margin: auto;
+        vertical-align: top;
+        box-sizing: border-box;
+        background: #FFF;
+        width: 50%;
+        display: inline-block;
+      }
+      .story2{
+        height: 377px;
+        margin: auto;
+        vertical-align: top;
+        box-sizing: border-box;
+        background: #FFF;
+        width: 50%;
+        display: inline-block;
+      }
+
+  .container{
+    box-sizing: border-box;
+    position: relative;
+    width: 1629px;
+    height: 2123px;
+    margin: 2em auto;
+    padding: 0 2em;
+    padding-bottom: 10em;
+    background-color: blue;
+    font-size: 100%
+  }
+
+  .container:after {
+    content: ".";
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    visibility: hidden;
+  }
+
+    .left-contents{
+      float: left;
+      width: 1117px;
+      box-sizing: border-box;
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+
+      .stories{
+        letter-spacing: -.40em;
+        background-color: white;
+        box-sizing: border-box;
+        display: block;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+        height :1926px;
+      }
+        .stories-article{
+          height :356px;
+          background-color: red;
+          width: 32%;
+          display: inline-block;
+          vertical-align: top;
+          letter-spacing: normal;
+          padding: 0;
+          margin-bottom: 2%;
+          box-sizing: border-box;
+          margin-right: 1%;
+          border: 0;
+          font: inherit;
+          font-size: 100%;
+        }
+
+
+      .more{
+        letter-spacing: normal;
+        background-color: yellow;
+        box-sizing: border-box;
+        display: block;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+        height :55px;
+        text-align: center;
+        margin-top: 5em;
+      }
+
+
+
+    .side-contents{
+      float: right;
+      width: 448px;
+      box-sizing: border-box;
+      display: block;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font: inherit;
+      font-size: 100%;
+      vertical-align: baseline;
+    }
+      .side-stories{
+        background-color: yellow;
+        height: 499px;
+        box-sizing: border-box;
+        display: block;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+        margin-bottom: 2em;
+        padding-bottom: 1.8em;
+      }
+
+     .side-tags{
+        background-color: orange;
+        height: 517px;
+        box-sizing: border-box;
+        display: block;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+        margin-bottom: 2em;
+      }
+      .side-companylist{
+        background-color: yellow;
+        height: 465px;
+        box-sizing: border-box;
+        display: block;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+        margin-bottom: 2em;
+      }
+      .side-banner{
+        background-color: orange;
+        height: 398px;
+        box-sizing: border-box;
+        display: block;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+      }
+    .footer-wrapper{
+      height: 208px;
+      margin-top: 5em;
+      border-top: 1px solid #EBEBEB;
+      background-color: orange;
+      padding: 4em 0;
+    }

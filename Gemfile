@@ -17,7 +17,9 @@ gem 'haml-rails'
 gem 'erb2haml'
 gem 'devise'
 
-
+group :production do
+  gem 'unicorn'
+end
 
 group :development, :test do
   gem 'byebug', platform: :mri

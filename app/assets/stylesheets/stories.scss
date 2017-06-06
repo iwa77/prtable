@@ -4,23 +4,20 @@
   position: relative;
   padding: 0;
   margin: 0;
-  background-color: gray;
+  background-color: #f0f0f0;
   min-width: 1629px;
   width: 100%;
   height: 100%;
 }
 
   .header{
-    background-color: gray;
+    background-color: white;
     position: relative;
     z-index: 9999;
     height: 75px;
     display: block;
   }
     .global-header{
-      background-color: white;
-      z-index: 9999;
-      height: 75px;
       white-space: nowrap;
       margin: auto;
       box-sizing: border-box;
@@ -32,7 +29,6 @@
       table-layout: fixed;
     }
       .logo{
-        background-color: yellow;
         display: table-cell;
         vertical-align: middle;
         width: 125px;
@@ -44,7 +40,7 @@
         padding: 0;
         border: 0;
         font: inherit;
-        font-size: 100%;
+        font-size: 1.5rem;
       }
       .g-nav{
         display: table-cell;
@@ -62,8 +58,7 @@
         font-size: 100%;
         text-align: left;
       }
-        .ul{
-          background-color: yellow;
+        ul{
           height: 75px;
           width: 466px;
           box-sizing: border-box;
@@ -75,10 +70,18 @@
           font-size: 100%;
           vertical-align: baseline;
         }
+          li{
+            width: 90px;
+            display: inline-block;
+            vertical-align: middle;
+            letter-spacing: normal;
+            box-sizing: border-box;
+            font-size: 1.2rem;
+            position: relative;
+          }
 
       .buttons{
         font-size: 1.0rem;
-        background-color: green;
         width: 50%;
         display: table-cell;
         vertical-align: middle;
@@ -93,7 +96,6 @@
       }
         .create{
           box-sizing: border-box;
-          background-color: red;
           width: 190px;
           height: 40px;
           padding: 0 0.5em;
@@ -104,12 +106,15 @@
           border: 0;
           font: inherit;
           font-size: 100%;
-          text-align: right;
+          text-align: center;
           white-space: nowrap;
+          border: 1px solid #CCC;
+          border-radius: 20px;
+          line-height: 38px;
+          font-size: 1.1rem;
         }
         .login{
           box-sizing: border-box;
-          background-color: red;
           width: 190px;
           height: 40px;
           padding: 0 0.5em;
@@ -120,12 +125,15 @@
           border: 0;
           font: inherit;
           font-size: 100%;
-          text-align: right;
+          text-align: center;
           white-space: nowrap;
+          border: 1px solid #CCC;
+          border-radius: 20px;
+          line-height: 38px;
+          font-size: 1.1rem;
         }
         .search{
           box-sizing: border-box;
-          background-color: red;
           width:  52px;
           height: 49px;
           display: inline-block;
@@ -145,7 +153,7 @@
     overflow: hidden;
     position: relative;
     box-sizing: border-box;
-    background-color: green;
+    background-color: #f0f0f0;
   }
     .pickup-2stories{
       padding: 0 2em;
@@ -153,7 +161,7 @@
       height: 377px;
       margin: auto;
       letter-spacing: -.40em;
-      background-color: blue;
+      background-color: #f0f0f0;
     }
 
       .story1{
@@ -183,7 +191,7 @@
     margin: 2em auto;
     padding: 0 2em;
     padding-bottom: 10em;
-    background-color: blue;
+    background-color: #f0f0f0;
     font-size: 100%
   }
 
@@ -207,7 +215,7 @@
 
       .stories{
         letter-spacing: -.40em;
-        background-color: white;
+        background-color: #f0f0f0;;
         box-sizing: border-box;
         display: block;
         margin: 0;
@@ -219,9 +227,9 @@
         height :1926px;
       }
         .stories-article{
+          background-color: white;
           height :356px;
-          background-color: red;
-          width: 32%;
+          width: 31%;
           display: inline-block;
           vertical-align: top;
           letter-spacing: normal;
@@ -233,6 +241,59 @@
           font: inherit;
           font-size: 100%;
         }
+          a{
+            display: block;
+            position: relative;
+            background-color: #FFF;
+            padding: 1.8em;
+            text-decoration: none;
+            margin: 0;
+            border: 0;
+            font: inherit;
+            font-size: 100%;
+            vertical-align: baseline;
+            background-color: white;
+          }
+            .story-image{
+              border: 1px solid #EBEBEB;
+              height: 150px;
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              position: relative;
+              overflow: hidden;
+              box-sizing: border-box;
+              margin: 0;
+              font: inherit;
+              font-size: 100%;
+              vertical-align: baseline;
+            }
+          strong{
+            height: 71px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            line-height: 1.5;
+            display: block;
+            margin-top: 1em;
+            font-family: inherit;
+            padding: 0;
+            border: 0;
+            font: inherit;
+            padding: 0 1.8em;
+          }
+          p{
+            height: 20px;
+            font-size: 1.2rem;
+            margin-top: 1em;
+            line-height: 1;
+            overflow: hidden;
+            padding: 0;
+            border: 0;
+            font: inherit;
+            vertical-align: baseline;
+            display: block;
+            padding: 0 1.8em;
+          }
 
 
       .more{
@@ -322,6 +383,6 @@
       height: 208px;
       margin-top: 5em;
       border-top: 1px solid #EBEBEB;
-      background-color: orange;
+      background-color: white;
       padding: 4em 0;
     }

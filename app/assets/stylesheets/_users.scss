@@ -1,0 +1,122 @@
+.top{
+  font-size: 1.0rem;
+  line-height: 1.8;
+  position: relative;
+  color: #333;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  min-width: 1240px;
+  width: 100%;
+  height: 100%;
+}  
+  .login-container{
+    width: 1060px;
+    height: 457px;
+    margin: 1.5em auto;
+    box-sizing: border-box;
+    position: relative;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    line-height: 1;
+    background-color: green;
+  }
+    .single-form{
+      width: 1020px;
+      height: 408px;
+      position: relative;
+      box-sizing: border-box;
+      margin: 4em auto;
+      display: block;
+      padding: 0;
+      border: 0;
+      font: inherit;
+      font-size: 100%;
+      vertical-align: baseline;
+      background-color: pink;
+    }
+    .login-h1{
+      width: 1020px;
+      height: 61px;
+      font-size: 2.4rem;
+      letter-spacing: 1px;
+      line-height: 50px;
+      text-align: center;
+      margin-bottom: 1em;
+      font-weight: bold;
+      font-family: inherit;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font: inherit;
+      vertical-align: baseline;
+      display: block;
+      background-color: blue;
+    }
+    .login-box{
+      width: 1020px;
+      height: 317px;
+      background-color: yellow;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font: inherit;
+      font-size: 100%;
+      vertical-align: baseline;
+      display: block;
+    }
+      .input{
+        width: 1020px;
+        height: 91px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 15px 1em;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+        display: block;
+        background-color: white;
+        border: 1px solid #CCC;
+        line-height: 50px;
+      }
+      .action-button{
+        width: 1020px;
+        height: 65px;
+        text-align: center;
+        margin-top: 1em;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+        background-color: red;
+      }
+      .small-box{
+        width: 1020px;
+        height: 56px;
+        margin-top: 4em;
+        text-align: center;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+        display: block;
+      }
+  .footer-wrapper{
+    height: 208px;
+    margin-top: 5em;
+    border-top: 1px solid #EBEBEB;
+    background-color: white;
+    padding: 4em 0;
+  }
+

@@ -1,0 +1,230 @@
+.body{
+  font-size: 1.0rem;
+  line-height: 1.8;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  background-color: gray;
+  min-width: 1629px;
+  width: 100%;
+  height: 100%;
+}
+
+  .breadcrumbs{
+    width: 1629px;
+    height: 51px;
+    padding: 0 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: auto;
+    box-sizing: border-box;
+    display: block;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    white-space: nowrap;
+    background-color: yellow;
+  }
+
+  .container-new{
+    box-sizing: border-box;
+    position: relative;
+    width: 1600px;
+    height: 7540px;
+    margin: 2em auto;
+    padding: 0 2em;
+    padding-bottom: 10em;
+    background-color: blue;
+    font-size: 100%;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+
+  .container:after {
+    content: ".";
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    visibility: hidden;
+  }
+    .contents-new{
+      display: block;
+      margin: 0;
+      padding: 0;
+      font-size: 100%;
+      height: 7410px;
+    }
+      .story-new{
+        width: 1058px;
+        margin: 30px auto;
+        box-sizing: content-box;
+        height: 7540px;
+        display: block;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+        background-color:green;
+      }
+        .author{
+          width: 1058px;
+          height: 135px;
+          margin-bottom: 3em;
+          text-align: center;
+          margin: 0;
+          padding: 0;
+          border: 0;
+          font: inherit;
+          font-size: 100%;
+          vertical-align: baseline;
+          background-color:red;
+        }
+        .h1{
+          width: 1058px;
+          height: 118px;
+          font-size: 2.2rem;
+          line-height: 1.5;
+          margin-top: 0;
+          margin-bottom: 1em;
+          text-align: center;
+          display: block;
+          font-weight: bold;
+          font-family: inherit;
+          background-color:yellow;
+        }
+        .intro{
+          width: 1058px;
+          height: 157px;
+          font-size: 3.0rem;
+          margin-bottom: 2em;
+          background-color: pink;
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+          border: 0;
+          font: inherit;
+          vertical-align: baseline;
+        }
+        .socials{
+          width: 1058px;
+          height: 50px;
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+          border: 0;
+          font: inherit;
+          font-size: 100%;
+          vertical-align: baseline;
+          display: block;
+          background-color: yellow;
+        }
+        .topics{
+          width: 1058px;
+          height: 1132px;
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+          border: 0;
+          font: inherit;
+          font-size: 100%;
+          vertical-align: baseline;
+          background-color: orange;
+        }
+          .h2{
+            width: 1058px;
+            height: 54px;
+            font-size: 2.8rem;
+            font-weight: bold;
+            margin: 2em 0 1em 0;
+            line-height: 1.6;
+            font-family: inherit;
+            box-sizing: border-box;
+            display: block;
+            padding: 0;
+            border: 0;
+            font: inherit;
+            background-color: yellow;
+          }
+          .img{
+            width: 1058px;
+            height: 495px;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font: inherit;
+            font-size: 100%;
+            vertical-align: baseline;
+            text-align: center;
+            background-color: orange;
+          }
+          .topics-body{
+            width: 1058px;
+            height: 511px;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font: inherit;
+            font-size: 100%;
+            vertical-align: baseline;
+            text-align: center;
+            background-color: red;
+          }
+          .story-footer{
+            width: 1058px;
+            height: 791px;
+            box-sizing: border-box;
+            display: block;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font: inherit;
+            font-size: 100%;
+            vertical-align: baseline;
+            background-color: purple;
+          }
+          .relative-story{
+            width: 1058x;
+            height: 791px;
+            margin-top: 4em;
+            margin-bottom: 2em;
+            box-sizing: border-box;
+            display: block;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font: inherit;
+            font-size: 100%;
+            vertical-align: baseline;
+            background-color: yellow;
+          }
+          .notice-story{
+            width: 1058x;
+            height: 427px;
+            margin-top: 4em;
+            margin-bottom: 2em;
+            box-sizing: border-box;
+            display: block;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font: inherit;
+            font-size: 100%;
+            vertical-align: baseline;
+            background-color: red;
+          }
+
+   
+
+    .footer-wrapper{
+      height: 208px;
+      margin-top: 5em;
+      border-top: 1px solid #EBEBEB;
+      background-color: white;
+      padding: 4em 0;
+    }

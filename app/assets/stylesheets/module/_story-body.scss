@@ -1,0 +1,13 @@
+$base-color: #f0f0f0;
+$accent-color: #ffffff;
+
+html,body {
+  font-size: 1.0rem;
+  line-height: 1.8;
+  position: relative;
+  background-color: $base-color;
+  min-width: 1629px;
+  width: 100%;
+  height: 100%;
+  
+  }

@@ -1,0 +1,13 @@
+.global-header
+  .logo
+    = image_tag("https://www.pr-table.com/assets/logo.svg")
+  .g-nav
+    %ul
+      %li 新着一覧
+      %li　PRTABLEとは?
+  .buttons
+    .create
+      = link_to "ストーリーを作成", stories_new_path, method: :get
+    .login 
+      = link_to "ログイン/新規登録", new_company_session_path, method: :get
+    %i.fa.fa-search
